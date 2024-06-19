@@ -30,22 +30,22 @@ body {
   width: 90%;
   height: 42px;
   padding: 0 21px 0 16px;
-  margin: auto; /* Centering the bar and page */
-  position: relative; /* Added for checkbox positioning */
+  margin: auto;
+  position: relative; 
 }
 
 .pages {
-  max-height: 160px; /* Adjust height for 4 visible items */
+  max-height: 160px; 
   overflow-y: auto;
   margin-bottom: 4%;
 }
 
-/* Hide scrollbar for Firefox */
+
 .pages {
   scrollbar-width: none; /* Firefox */
 }
 
-/* Hide scrollbar for WebKit browsers */
+
 .pages::-webkit-scrollbar {
   display: none;
 }
@@ -75,10 +75,10 @@ input[type="checkbox"] {
   height: 25px;
   border-radius: 6px;
   cursor: pointer;
-  position: absolute; /* Changed for absolute positioning */
-  right: 16px; /* Aligning checkbox to the right */
-  display: block; /* Ensure checkbox is always visible */
-  appearance: none; /* Remove default checkbox styling */
+  position: absolute; 
+  right: 16px; 
+  display: block; 
+  appearance: none; 
   background-color: #fff;
   border: 1px solid #ccc;
 }
