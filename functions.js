@@ -1,4 +1,4 @@
-// scripts.js
+
 document.addEventListener("DOMContentLoaded", function() {
     // Function to handle hover and click for bars
     function handleBarHoverAndClick(bar, checkbox) {
